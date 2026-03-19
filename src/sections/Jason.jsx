@@ -12,7 +12,7 @@ useGSAP(() => {
         scrollTrigger: {
             trigger: '.jason',
             start: 'top 90%',
-            end: 'top center',
+            end: '10% center',
             scrub: 2,
     }}).to('.first-vd', {
         opacity: 0,
