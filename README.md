@@ -1,12 +1,39 @@
-# React + Vite
+# GTA Landing Page - Demo Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GTA6 Demo](./GTA6demo.gif)
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a **demo project** that recreates the Grand Theft Auto (GTA) website for educational and portfolio purposes. It showcases modern web development practices with smooth animations, responsive design, and engaging multimedia content.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎬 Smooth scroll-triggered animations
+- 📱 Fully responsive design  
+- 🎥 Video backgrounds and transitions
+- ✨ Interactive elements with hover effects
+- 📦 Optimized assets and performance
+
+## Tech Stack
+
+- **[Vite](https://vitejs.dev/)** 
+- **[React](https://react.dev/)** 
+- **[Tailwind CSS](https://tailwindcss.com/)**
+- **[GSAP](https://greensock.com/gsap/)** 
+
+
+## Project Structure
+
+```
+src/
+├── sections/          # Individual page sections
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   ├── Jason.jsx
+│   ├── Lucia.jsx
+│   ├── Final.jsx
+│   └── ...
+├── App.jsx           # Main component
+├── index.css         # Global styles
+└── main.jsx          # Entry point
+```
